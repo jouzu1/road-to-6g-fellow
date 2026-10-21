@@ -1,4 +1,4 @@
-# 📡 ROAD TO 6G SYSTEMS FELLOW
+﻿# 📡 ROAD TO 6G SYSTEMS FELLOW
 > **From Software Engineer to 6G Wireless Systems Fellow — Daily Lab Grind, Sionna Simulations & Physical Layer Roadmap**
 
 [![Roadmap](https://img.shields.io/badge/Track-SWE_to_6G_Architect-007acc?style=for-the-badge&logo=target)](https://github.com/jouzu1/road-to-6g-fellow)
@@ -306,6 +306,17 @@ Action :
 - Tulis dokumentasi arsitektur yang tajam dan artikel teknis di LinkedIn / Medium.
 - Jalin komunikasi dengan praktisi di bidang Telco Cloud, 5G Core Integration, atau RAN Automation!
 ```
+
+---
+
+## 📚 Log Perkuliahan & Catatan Lab (Lecture Notes)
+
+Daftar catatan kuliah, bedah konsep, dan verifikasi kuis yang telah dituntaskan bersama **Dr. Aris (Principal Telecom Architect)** dan **Amelia (Senior SWE)**:
+
+| Level | Modul / Topik | Catatan Kuliah | Status |
+| :---: | :--- | :--- | :---: |
+| **Level 0** | **Kuliah 1:** Misteri Waktu vs. Frekuensi & Rahasia Ukuran Antena HP | [Buka Catatan Kuliah 1](lectures/level-0/lecture-01-time-vs-frequency-and-antenna-physics.md) | ✅ Passed |
+| **Level 0** | **Kuliah 2:** Bilangan Kompleks ( + jQ$) & Papan Catur Modulasi Digital | *(Up Next)* | ⏳ Pending |
 
 ---
 
