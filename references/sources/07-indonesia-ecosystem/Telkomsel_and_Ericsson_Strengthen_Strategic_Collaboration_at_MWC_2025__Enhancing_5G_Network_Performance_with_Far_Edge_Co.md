@@ -1,0 +1,69 @@
+# Telkomsel and Ericsson Strengthen Strategic Collaboration at MWC 2025_ Enhancing 5G Network Performance with Far Edge Core Solutions and AI & 5G Talent Development
+
+**URL Sumber Asli:** [https://www.telkomsel.com/en/about-us/news/telkomsel-and-ericsson-strengthen-strategic-collaboration-mwc-2025-enhancing-5g](https://www.telkomsel.com/en/about-us/news/telkomsel-and-ericsson-strengthen-strategic-collaboration-mwc-2025-enhancing-5g)
+
+> **Deskripsi / Relevansi:** Reiterates Telkomsel and Ericsson's strategic partnership terms and talent initiatives.
+
+---
+
+Telkomsel and Ericsson Strengthen Strategic Collaboration at MWC 2025: Enhancing 5G Network Performance with Far Edge Core Solutions and AI & 5G Talent Development | Telkomsel [Personal](<https://www.telkomsel.com/en>) [Enterprise](<https://www.telkomsel.com/en/enterprise>) [About Us](<https://www.telkomsel.com/en/tentang-kami>) [Login](<https://www.telkomsel.com/login>) [Your Account](<https://www.telkomsel.com/user>) [ID](<https://www.telkomsel.com/about-us/news/telkomsel-dan-ericsson-perkuat-kolaborasi-strategis-di-mwc-2025-tingkatkan-performa>) [EN](<https://www.telkomsel.com/en/about-us/news/telkomsel-and-ericsson-strengthen-strategic-collaboration-mwc-2025-enhancing-5g>) About Us [Personal](<https://www.telkomsel.com/en>) [Business](<https://www.telkomsel.com/en/enterprise>) [About Us](<https://www.telkomsel.com/en/tentang-kami>) [Login](<https://www.telkomsel.com/login>) [Your Account ›](<https://www.telkomsel.com/user>)
+
+#### Select Language
+
+Which language would you like to use? Bahasa Indonesia [-] id English (US) [x] en [Use English](<https://www.telkomsel.com/about-us/news/telkomsel-dan-ericsson-perkuat-kolaborasi-strategis-di-mwc-2025-tingkatkan-performa>) Profile [Vision & Mission](<https://www.telkomsel.com/en/about-us/vision-mission>) [Board of Directors](<https://www.telkomsel.com/en/about-us/board-directors>) [Board of Commissioners](<https://www.telkomsel.com/en/about-us/board-commissioner>) [Subsidiaries Company](<https://www.telkomsel.com/en/about-us/profil/indico>) [Contribution](<https://www.telkomsel.com/en/about-us/kontribusi>) [Sustainability](<https://www.telkomsel.com/en/about-us/sustainability>) GCG [Articles of Association](<https://www.telkomsel.com/en/about-us/GCG/anggaran-dasar>) [Good Corporate Governance Code](<https://www.telkomsel.com/en/about-us/GCG/Pedoman-GCG>) [Whistleblowing Policy](<https://www.telkomsel.com/en/about-us/GCG>) [Board Manual](<https://www.telkomsel.com/about-us/GCG/board-manual>) [AGMS](<https://www.telkomsel.com/en/about-us/GCG/RUPS>) [ISO 37001 ABMS](<https://www.telkomsel.com/en/about-us/GCG/anti-gratifikasi>) [Competition Compliance Program](<https://www.telkomsel.com/en/about-us/GCG/program-kepatuhan-persaingan-usaha>) [Committees Charter](<https://www.telkomsel.com/en/about-us/GCG/CommitteesCharter>) [Completed Staff Work](<https://www.telkomsel.com/en/about-us/GCG/CSW>) [Investor Relations](<https://www.telkomsel.com/en/about-us/investor-relations>) Article [News](<https://www.telkomsel.com/about-us/media>) [Blogs](<https://www.telkomsel.com/en/about-us/blogs>) [Careers](<https://career.telkomsel.com/>) Search × Search ×
+
+##### Search History
+
+No Recent History
+
+##### Popular Keywords
+
+[Kuota Belajar](<https://www.telkomsel.com/search?search_api_fulltext=kuota%20belajar>) [Undi-Undi Hepi](<https://www.telkomsel.com/search?search_api_fulltext=undi-undi%20hepi>) [#CepetAntiRibet](<https://www.telkomsel.com/search?search_api_fulltext=%23CepetAntiRibet>)
+
+##### Package Recommendation
+
+##### Category
+
+[TShop](<https://www.telkomsel.com/shops/bundling/home/apple>) [Package](<https://www.telkomsel.com/shops/digital-product>) [Bundling](<https://www.telkomsel.com/bundling>) [Promotion](<https://www.telkomsel.com/promo>) [Help](<https://www.telkomsel.com/support>) Search [My](<https://www.telkomsel.com/user>)
+
+##### Search History
+
+No Recent History
+
+##### Popular Keywords
+
+[Kuota Belajar](<https://www.telkomsel.com/search?search_api_fulltext=kuota%20belajar>) [Undi-Undi Hepi](<https://www.telkomsel.com/search?search_api_fulltext=undi-undi%20hepi>) [#CepetAntiRibet](<https://www.telkomsel.com/search?search_api_fulltext=%23CepetAntiRibet>)
+
+##### Package Recommendation
+
+##### Category
+[code] 
+    *  [Bundling](https://www.telkomsel.com/bundling)
+    *  [Promotion](https://www.telkomsel.com/promo)
+    *  [Help](https://www.telkomsel.com/support)
+    *  [TShop](https://www.telkomsel.com/shops/bundling/home/apple)
+    *  [Package](https://www.telkomsel.com/shops/digital-product)
+    *  [Bundling](https://www.telkomsel.com/bundling)
+    *  [Promotion](https://www.telkomsel.com/promo)
+    *  [Help](https://www.telkomsel.com/support)
+    *  [TShop](https://www.telkomsel.com/shops/bundling/home/apple)
+    *  [Package](https://www.telkomsel.com/shops/digital-product)
+    *  [Bundling](https://www.telkomsel.com/bundling)
+    *  [Promotion](https://www.telkomsel.com/promo)
+    *  [Help](https://www.telkomsel.com/support)
+    *  [TShop](https://www.telkomsel.com/shops/bundling/home/apple)
+    *  [Package](https://www.telkomsel.com/shops/digital-product)
+    *  [Bundling](https://www.telkomsel.com/bundling)
+    *  [Promotion](https://www.telkomsel.com/promo)
+    *  [Help](https://www.telkomsel.com/support)
+    *  [TShop](https://www.telkomsel.com/shops/bundling/home/apple)
+    *  [Package](https://www.telkomsel.com/shops/digital-product)
+    *  [Bundling](https://www.telkomsel.com/bundling)
+    
+[/code]
+
+ALL MENU Profile All information about our vision, mission, and management [Contribution Contribution Social initiatives & caring for others](<https://www.telkomsel.com/en/about-us/kontribusi>) [Sustainability Sustainability Concrete action fo the environment & community](<https://www.telkomsel.com/en/about-us/sustainability>) Good Corporate Governance (GCG) Learn about our policies & governance [Investor Relations Investor Relations Transparency in Our performance & business](<https://www.telkomsel.com/en/about-us/investor-relations>) Article Find the latest news & blog posts [Careers Careers Discover career opportunities at Telkomsel](<https://career.telkomsel.com/>) PROFILE [Vision & Mission](<https://www.telkomsel.com/en/about-us/vision-mission>) [Board of Directors](<https://www.telkomsel.com/en/about-us/board-directors>) [Board of Commissioners](<https://www.telkomsel.com/en/about-us/board-commissioner>) [Subsidiaries Company](<https://www.telkomsel.com/en/about-us/profil/indico>) GOOD CORPORATE GOVERNANCE (GCG) [Articles of Association](<https://www.telkomsel.com/en/about-us/GCG/anggaran-dasar>) [Good Corporate Governance Code](<https://www.telkomsel.com/en/about-us/GCG/Pedoman-GCG>) [Whistleblowing Policy](<https://www.telkomsel.com/en/about-us/GCG>) [Board Manual](<https://www.telkomsel.com/about-us/GCG/board-manual>) [AGMS](<https://www.telkomsel.com/en/about-us/GCG/RUPS>) [ISO 37001 ABMS](<https://www.telkomsel.com/en/about-us/GCG/anti-gratifikasi>) [Competition Compliance Program](<https://www.telkomsel.com/en/about-us/GCG/program-kepatuhan-persaingan-usaha>) [Committees Charter](<https://www.telkomsel.com/en/about-us/GCG/CommitteesCharter>) [Completed Staff Work](<https://www.telkomsel.com/en/about-us/GCG/CSW>) ARTICLE [News](<https://www.telkomsel.com/about-us/media>) [Blogs](<https://www.telkomsel.com/en/about-us/blogs>) [ID](<https://www.telkomsel.com/about-us/news/telkomsel-dan-ericsson-perkuat-kolaborasi-strategis-di-mwc-2025-tingkatkan-performa>) [EN](<https://www.telkomsel.com/en/about-us/news/telkomsel-and-ericsson-strengthen-strategic-collaboration-mwc-2025-enhancing-5g>) Percobaan masuk belum berhasil. Silakan coba kembali. SHARE
+
+### Telkomsel and Ericsson Strengthen Strategic Collaboration at MWC 2025: Enhancing 5G Network Performance with Far Edge Core Solutions and AI & 5G Talent Development
+
+05 March 2025 Telkomsel dan Ericsson Perkuat Kolaborasi Strategis di MWC 2025 **Barcelona, 05 March 2025 –** Telkomsel, Indonesia's leading digital telecommunications provider, has established a strategic collaboration with Ericsson to introduce Far Edge Core Solutions and advance talent development focused on 5G advanced technology, AI-driven networks, cloud-native architecture, and related digital innovations. This collaboration was officially marked by the signing of a Memorandum of Understanding (MoU) in Barcelona on March 3, 2025, coinciding with the Mobile World Congress (MWC) 2025. The signing of the partnership, attended by Commissioner of Telkomsel, Yose Rizal; Director Network of Telkomsel, Indra Mardiatna; Director Planning & Transformation Telkomsel, Wong Soon Nam; President Director of Ericsson Indonesia, Krishna Patil; SVP & Head of Ericsson South East Asia, Oceania, and India, Andres Vicente; and SVP & Head of Business Area Global Communications Platform & CEO of Vonage, Niklas Heuveldop, includes several key initiatives: 1\. Exploring and implementing Far Edge Core Solutions based on Cloud Native Infrastructure (CNIS) to enhance network performance, flexibility, and scalability while supporting future 5G and edge computing use cases 1\. Assessing the implementation of cloudnative network functions (CNFs) to support dynamic, scalable, and automated service deployments in Telkomsel's infrastructure. 1\. Executing Far Edge Core deployment on CNIS, validating the operational and technical feasibility while ensuring seamless integration with Telkomsel's existing cloud-native ecosystem. 1\. Ericsson will provide Telkomsel with access to specialized knowledge sharing and talent development, focusing on 5G advance technology, its applications, related digital innovations, as well as AI-driven networks and cloud-native architectures. This initiative aims to ensure that Telkomsel's workforce remains leading and at the forefront of the telecommunications industry. **Director Network of Telkomsel, Indra Mardiatna** , stated, “Telkomsel remains committed to fostering a more inclusive and sustainable national digital ecosystem through technological innovations and Telkomsel digital talent development. Through this partnership with Ericsson, we are implementing Far Edge solutions to enhance network efficiency and accelerate 5G adoption while also preparing Telkomsel talent development initiatives that equip them with the latest technological expertise. This collaboration aligns with Telkomsel's vision of accelerating Indonesia's progress, creating a better today, and a brighter future.” **Head of Ericsson Indonesia, Krishna Patil, added,** “Ericsson is proud to continue our longstanding partnership with Telkomsel to bring Far Edge Core Solutions to 5G networks and drive talent development across various technology innovations. We believe this collaboration will accelerate digital transformation in Indonesia, particularly in the telecommunications sector.” _Telkomsel dan Ericsson Perkuat Kolaborasi Strategis di MWC 2025: Kerja sama ini sejalan dengan visi Telkomsel mengakselerasi kemajuan Indonesia, menciptakan hari yang lebih baik, dan masa depan yang gemilang._ Through this strategic collaboration, Telkomsel and Ericsson reaffirm their commitment to advancing next-generation network innovation and developing globally competitive digital talent while delivering an enhanced digital experience for customers. Tags **PT Telekomunikasi Selular** The Telkom Hub, Gedung Telkom Landmark Tower I, Jl. Gatot Subroto No.Kav.52, RT.6/RW.1, Kuningan Bar., Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12710 Company Email Secretary: corsec@telkomsel.co.id Media: mediarelations@telkomsel.co.id Connect with us Product * [SIMPATI](<https://www.telkomsel.com/en/simpati>) * [Halo](<https://www.telkomsel.com/en/halo>) * [by.U](<https://www.telkomsel.com/en/byU>) * [IndiHome](<https://www.telkomsel.com/en/indihome>) * [Orbit](<https://www.telkomsel.com/en/telkomsel-orbit>) * [EZnet](<https://www.telkomsel.com/en/eznet>) * [EZnet Wireless](<https://www.telkomsel.com/en/eznet-wireless>) * [Telkomsel One](<https://www.telkomsel.com/en/one>) * [Roaming & International](<https://www.telkomsel.com/en/roaming>) * [5G](<https://www.telkomsel.com/en/5G>) * [VAS](<https://www.telkomsel.com/en/vas>) * [Bundling](<https://www.telkomsel.com/en/bundling>) Top Up & Pay Bill * [Top Up Credit](<https://www.telkomsel.com/shops/express-purchase/simpati>) * [Buy Package](<https://www.telkomsel.com/shops/express-purchase/simpati>) * [Buy Starter Pack](<https://my.telkomsel.com/v2/starterpack>) * [Top Up Games](<https://www.telkomsel.com/shops/voucher-games>) * [Pay Halo Bills](<https://www.telkomsel.com/shops/express-purchase/halo?msisdn=>) * [Pay IndiHome Bills](<https://www.telkomsel.com/en/support/informasi-tagihan-indihome>) * [PPOB](<https://www.telkomsel.com/shops/home?utm_source=wec&utm_medium=menu-footer&utm_campaign=tshop>) * [Digital Voucher](<https://www.telkomsel.com/shops/voucher/redeem>) Jelajah * [Jelajah Nusantara](<https://www.telkomsel.com/en/jelajah/jelajah-nusantara>) * [Jelajah Lifestyle](<https://www.telkomsel.com/en/jelajah/jelajah-lifestyle>) * [Jelajah Promo](<https://www.telkomsel.com/en/promo>) * [Jelajah Video](<https://www.telkomsel.com/en/jelajah/jelajah-video>) Support * [Ask Veronika](<https://veronika.telkomsel.com/veronika>) * [Help Center](<https://www.telkomsel.com/en/support>) * [GraPARI Online](<https://graparionline.telkomsel.com/>) * [Find GraPARI](<https://www.telkomsel.com/en/contact-us/grapari>) * [Contact Us](<https://www.telkomsel.com/en/support/contact-us>) * [Call 188](<about:invalid#zCSafez>) Go beyond on MyTelkomsel © PT Telekomunikasi Selular, 2026. [Privacy Policy](<https://www.telkomsel.com/en/privacy-policy>) [Terms and Conditions](<https://www.telkomsel.com/en/terms-and-conditions>) [Contact Us](<https://www.telkomsel.com/contact-us>)

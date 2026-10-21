@@ -33,6 +33,7 @@ Di era 5G-Advanced dan 6G, pemrosesan sinyal radio berpindah dari kotak perangka
 * [🔹 LEVEL 4: Frontier 6G: AI-Native PHY, RIS, ISAC, & Sub-THz](#-level-4-frontier-6g-ai-native-phy-ris-isac--sub-thz-lab-riset-masa-depan)
 * [🛠️ Peralatan Laboratorium Software (Tooling Stack)](#️-peralatan-laboratorium-software-tooling-stack)
 * [📅 Rencana Aksi Praktis 90 Hari (The 90-Day Lab Grind)](#-rencana-aksi-praktis-90-hari-the-90-day-lab-grind)
+* [📚 Research Library & References](references/README.md)
 * [🏁 Cara Belajar & Ground Rules](#-cara-belajar--ground-rules)
 
 ---
@@ -317,6 +318,18 @@ Daftar catatan kuliah, bedah konsep, dan verifikasi kuis yang telah dituntaskan 
 | :---: | :--- | :--- | :---: |
 | **Level 0** | **Kuliah 1:** Misteri Waktu vs. Frekuensi & Rahasia Ukuran Antena HP | [Buka Catatan Kuliah 1](lectures/level-0/lecture-01-time-vs-frequency-and-antenna-physics.md) | ✅ Passed |
 | **Level 0** | **Kuliah 2:** Bilangan Kompleks ( + jQ$) & Papan Catur Modulasi Digital | *(Up Next)* | ⏳ Pending |
+
+---
+
+## 📚 6G Research Library & Reference Compendium
+
+Seluruh materi rujukan, literatur akademik, tutorial laboratorium, dan laporan riset mendalam telah dikurasi dan diorganisir secara rapi di dalam direktori [`references/`](references/README.md):
+
+* 📑 [**Deep Research Reports**](references/README.md#-1-laporan-riset-mendalam-deep-research-reports): 3 Laporan riset mendalam NotebookLM (Transformasi Role Engineer Indonesia, Arsitektur Enabler 6G, dan Simulasi AI-Native).
+* 📝 [**NotebookLM Notes**](references/README.md#-2-catatan-sintetis-notebooklm-notes): Panduan Belajar 4 Fase & Peta Jalan Hands-on Sionna vs MATLAB.
+* 📁 [**Katalog Sumber Terkategori (93 Dokumen)**](references/README.md#-3-direktori-sumber-literatur-terkategori-93-dokumen): 9 subdirektori sumber ilmiah (ITU-R/3GPP, Sionna/PyTorch, Sub-THz/RIS, ISAC, Satelit NTN, Regulasi Indonesia, Kursus & Tutorial).
+
+👉 **[Buka Katalog Lengkap Perpustakaan Referensi 6G](references/README.md)**
 
 ---
 
