@@ -32,7 +32,10 @@ Dalam telekomunikasi nirkabel, sinyal dapat diobservasi dari dua jendela pandang
 * **Domain Waktu ($s(t)$):** Grafik tegangan sesaat terhadap waktu sebagaimana tertampil pada osiloskop analog. Seluruh komponen frekuensi bercampur menjadi satu bentuk gelombang komposit.
 * **Domain Frekuensi ($S(f)$):** Grafik densitas spektrum daya yang menunjukkan kontribusi energi pada masing-masing frekuensi spesifik.
 * **Transformasi Fourier:** Berperan layaknya "mesin prisma" atau pemilah bahan yang membedah sinyal gabungan di domain waktu menjadi komponen-komponen nada sinus/cosinus penyusunnya:
-  $$\mathcal{F}\{s(t)\} = S(f) = \int_{-\infty}^{\infty} s(t) e^{-j 2\pi f t} \, dt$$
+
+```math
+\mathcal{F}\{s(t)\} = S(f) = \int_{-\infty}^{\infty} s(t) e^{-j 2\pi f t} \, dt
+```
 
 > **💡 Mengapa Alokasi Frekuensi Begitu Krusial?**  
 > Gelombang-gelombang elektromagnetik yang merambat pada frekuensi yang berbeda bersifat ortogonal (independen) di medium udara. Mereka dapat menempati ruang spasial yang sama tanpa menimbulkan destruksi interferensi selama berada pada kanal frekuensi pembawa yang terisolasi.
@@ -45,7 +48,9 @@ Mengapa suara percakapan manusia (sekitar $1\text{ kHz}$) tidak dapat dipancarka
 
 Hukum elektromagnetik Maxwell menetapkan hubungan antara frekuensi ($f$), kecepatan cahaya di ruang hampa ($c \approx 3 \times 10^8\text{ m/s}$), dan panjang gelombang fisik ($\lambda$):
 
-$$\lambda = \frac{c}{f}$$
+```math
+\lambda = \frac{c}{f}
+```
 
 Panjang antena resonan ideal (misal: *monopole* atau *dipole*) membutuhkan dimensi proporsional terhadap panjang gelombangnya ($\approx \lambda/4$ atau $\lambda/2$).
 

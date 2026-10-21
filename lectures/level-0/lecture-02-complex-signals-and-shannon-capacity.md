@@ -6,7 +6,7 @@
 
 ## 🎯 Tujuan Pembelajaran
 1. Memahami intuisi fisik **In-phase ($I$)** dan **Quadrature ($Q$)** sebagai dua gelombang pembawa yang saling ortogonal (tidak saling mengganggu pada frekuensi yang sama).
-2. Membongkar mitos bilangan imajiner $j$: $j = \sqrt{-1}$ bukan angka khayalan, melainkan **operator rotasi $90^\circ$** pada bidang 2D.
+2. Membongkar mitos bilangan imajiner `j`: $j = \sqrt{-1}$ bukan angka khayalan, melainkan **operator rotasi $90^\circ$** pada bidang 2D.
 3. Memahami bagaimana persamaan gelombang passband RF diubah menjadi representasi **baseband kompleks (sinyal analitik)** untuk pemrosesan software di Sionna/PyTorch/NumPy.
 4. Memahami hukum mutlak alam semesta nirkabel: **Teorema Kapasitas Shannon-Hartley** ($C = B \log_2(1 + \text{SNR})$).
 5. Memahami asal-usul **Desah Termal Johnson-Nyquist** ($N_0 \approx -174\text{ dBm/Hz}$) dan mengapa 6G mengejar spektrum frekuensi raksasa (Sub-THz).
@@ -68,15 +68,21 @@ Di bangku sekolah, kita sering diajarkan bahwa $j = \sqrt{-1}$ adalah "bilangan 
 ### Mengapa Software DSP & AI (Sionna/PyTorch) Selalu Memakai Bilangan Kompleks?
 Sinyal radio fisik yang keluar dari antena ke udara selalu berbentuk gelombang riil tegangan listrik:
 
-$$s(t) = I(t)\cos(2\pi f_c t) - Q(t)\sin(2\pi f_c t)$$
+```math
+s(t) = I(t)\cos(2\pi f_c t) - Q(t)\sin(2\pi f_c t)
+```
 
 Namun, melakukan simulasi modulasi, propagasi fading, dan filtering pada frekuensi pembawa $f_c = 3.5\text{ GHz}$ secara langsung di komputer membutuhkan laju sampling (*sampling rate*) super tinggi (minimal puluhan Gigasample per detik)! Komputer atau GPU akan kehabisan memori dalam hitungan milidetik.
 
 Solusinya, insinyur telekomunikasi membuang frekuensi pembawa $f_c$ dan hanya memproses "amplop informasi"-nya saja menggunakan **Formula Euler**:
 
-$$e^{j\theta} = \cos(\theta) + j\sin(\theta)$$
+```math
+e^{j\theta} = \cos(\theta) + j\sin(\theta)
+```
 
-$$s(t) = \text{Re}\left\{ (I(t) + jQ(t)) \, e^{j 2\pi f_c t} \right\}$$
+```math
+s(t) = \text{Re}\left\{ (I(t) + jQ(t)) e^{j 2\pi f_c t} \right\}
+```
 
 Bagian $(I(t) + jQ(t))$ inilah yang disebut **Sinyal Baseband Kompleks** (*Equivalent Complex Baseband*).
 * Sumbu **Riil** menyimpan nilai gelombang **$I(t)$**.
@@ -100,7 +106,9 @@ Bagian $(I(t) + jQ(t))$ inilah yang disebut **Sinyal Baseband Kompleks** (*Equiv
 
 Pada tahun 1948, bapak teori informasi modern, **Claude Shannon**, menerbitkan karya ilmiah yang membuktikan bahwa setiap saluran nirkabel memiliki batas kecepatan transfer data maksimum tanpa salah (*error-free channel capacity*), yang dirumuskan sebagai:
 
-$$C = B \log_2\left(1 + \frac{S}{N}\right) \quad [\text{bits/second}]$$
+```math
+C = B \log_2\left(1 + \frac{S}{N}\right) \quad [\text{bits/second}]
+```
 
 Di mana:
 * **$C$**: Kapasitas kanal maksimum teoritis (bps / bit per detik).
@@ -148,14 +156,18 @@ Semua benda di alam semesta yang suhunya berada di atas nol mutlak ($0\text{ Kel
 
 Kerapatan spektrum daya desah termal dirumuskan oleh:
 
-$$N_0 = k_B \cdot T \quad [\text{Watt/Hz}]$$
+```math
+N_0 = k_B \cdot T \quad [\text{Watt/Hz}]
+```
 
 * $k_B = 1.380649 \times 10^{-23}\text{ J/K}$ (Konstanta Boltzmann).
 * $T$: Suhu absolut dalam Kelvin (standar temperatur ruang telekomunikasi adalah $T_0 = 290\text{ K} \approx 17^\circ\text{C}$).
 
 Jika dikonversi ke satuan logaritmik daya telekomunikasi ($\text{dBm/Hz}$):
 
-$$N_0 = 10 \log_{10}\left( \frac{k_B \cdot 290 \cdot 1000}{1} \right) \approx \mathbf{-174\text{ dBm/Hz}}$$
+```math
+N_0 = 10 \log_{10}\left( \frac{k_B \cdot 290 \cdot 1000}{1} \right) \approx -174\text{ dBm/Hz}
+```
 
 > **📌 Angka Suci Telekomunikasi:**  
 > Angka **$-174\text{ dBm/Hz}$** adalah konstanta alamiah paling fundamental di dunia telekomunikasi.  
@@ -176,4 +188,4 @@ Untuk memverifikasi pemahaman Anda sebelum kita melangkah ke modul modulasi digi
 > 2. Jika regulator mengizinkan operator menggandakan lebar bandwidth menjadi $B = 40\text{ MHz}$ tanpa mengubah daya pancar, berapakah kapasitas barunya? Manakah yang lebih hemat energi: menaikkan bandwidth atau menaikkan daya pemancar?
 
 ---
-*Catatan kuliah ini disusun bersama Mentor Dr. Aris (📡) & Amelia (💻) untuk repositori [jouzu1/road-to-6g-fellow](https://github.com/jouzu1/road-to-6g-fellow).*
+*Catatan kuliah ini disusun bersama Mentor Dr. Aris (📡), Amelia (💻), & Paige (📚) untuk repositori [jouzu1/road-to-6g-fellow](https://github.com/jouzu1/road-to-6g-fellow).*
