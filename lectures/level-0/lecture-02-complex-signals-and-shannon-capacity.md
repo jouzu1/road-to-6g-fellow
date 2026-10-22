@@ -1,12 +1,12 @@
 # 📡 KULIAH 2: Bilangan Kompleks ($I + jQ$), Senter Ortogonal, & Batas Absolut Kapasitas Shannon
 *Track: Level 0 — Kalibrasi Gelombang & Intuisi Sinyal*  
-*Status: IN PROGRESS (Checkpoint Quiz Available)*
+*Status: COMPLETED (Verified via Checkpoint Quiz)*
 
 ---
 
 ## 🎯 Tujuan Pembelajaran
 1. Memahami intuisi fisik **In-phase ($I$)** dan **Quadrature ($Q$)** sebagai dua gelombang pembawa yang saling ortogonal (tidak saling mengganggu pada frekuensi yang sama).
-2. Membongkar mitos bilangan imajiner `j`: $j = \sqrt{-1}$ bukan angka khayalan, melainkan **operator rotasi $90^\circ$** pada bidang 2D.
+2. Membongkar mitos bilangan imajiner $j$: $j = \sqrt{-1}$ bukan angka khayalan, melainkan **operator rotasi $90^\circ$** pada bidang 2D.
 3. Memahami bagaimana persamaan gelombang passband RF diubah menjadi representasi **baseband kompleks (sinyal analitik)** untuk pemrosesan software di Sionna/PyTorch/NumPy.
 4. Memahami hukum mutlak alam semesta nirkabel: **Teorema Kapasitas Shannon-Hartley** ($C = B \log_2(1 + \text{SNR})$).
 5. Memahami asal-usul **Desah Termal Johnson-Nyquist** ($N_0 \approx -174\text{ dBm/Hz}$) dan mengapa 6G mengejar spektrum frekuensi raksasa (Sub-THz).
@@ -36,7 +36,11 @@ Trik ini disebut **Modulasi I/Q (In-phase & Quadrature)**.
 * Dalam matematika gelombang radio:
   * Gelombang Cosinus: $\cos(2\pi f_c t)$ disebut komponen **In-phase ($I$)**.
   * Gelombang Sinus: $-\sin(2\pi f_c t)$ disebut komponen **Quadrature ($Q$)** (karena fasenya digeser $90^\circ$ atau $\pi/2$ radian).
-* Karena integral hasil kali $\cos$ dan $\sin$ pada satu periode adalah **nol** ($\int_0^T \cos(\omega t) \sin(\omega t) dt = 0$), mereka disebut **ORTOGONAL**. Mereka berbagi udara yang sama tanpa saling merusak!
+* Karena integral hasil kali $\cos$ dan $\sin$ pada satu periode adalah **nol**:
+```math
+\int_0^T \cos(\omega t) \sin(\omega t) \, dt = 0
+```
+Mereka disebut **ORTOGONAL**. Mereka berbagi udara yang sama tanpa saling merusak!
 
 ---
 
@@ -142,7 +146,7 @@ Bayangkan Anda ingin berbicara dengan teman di dalam ruangan diskotik yang sanga
    *Artinya: Jika Anda menaikkan lebar pita frekuensi $B$ sebanyak $10\times$, kapasitas data $C$ otomatis melesat $10\times$ lipat tanpa perlu menaikkan daya pemancar!*
 
 > **🚀 Inilah Alasan Utama Mengapa 5G dan 6G Berlari ke Frekuensi Tinggi (mmWave & Sub-THz):**  
-> Di frekuensi rendah (700 MHz – 2.6 GHz), spektrum sudah sangat padat dan sempit (hanya ada potongan 10–20 MHz). Tapi di pita Sub-THz (100 GHz – 300 GHz), terdapat lahan kosong selebar **puluhan Gigahertz ($B$)**, membuka gerbang menuju kecepatan **Terabit per detik (Tbps)**!
+> Di frekuensi rendah (700 MHz - 2.6 GHz), spektrum sudah sangat padat dan sempit (hanya ada potongan 10 - 20 MHz). Tapi di pita Sub-THz (100 GHz - 300 GHz), terdapat lahan kosong selebar **puluhan Gigahertz ($B$)**, membuka gerbang menuju kecepatan **Terabit per detik (Tbps)**!
 
 ---
 
@@ -175,17 +179,71 @@ N_0 = 10 \log_{10}\left( \frac{k_B \cdot 290 \cdot 1000}{1} \right) \approx -174
 
 ---
 
-## 🧪 5. Checkpoint Kuis Kuliah 2
-
-Untuk memverifikasi pemahaman Anda sebelum kita melangkah ke modul modulasi digital di Level 1, jawab 2 pertanyaan konseptual berikut:
+## 🧪 5. Checkpoint Review & Verifikasi Konsep
 
 ### Soal 1:
-> Mengapa di software radio modern (seperti NVIDIA Sionna, PyTorch, atau GNU Radio), sinyal yang diproses pada lapisan fisik (PHY) selalu berupa array bilangan kompleks `[real, imag]` berdimensi baseband, padahal gelombang tegangan listrik yang memancar nyata di udara dari antena pemancar selalu berupa bilangan riil murni?
+Mengapa di software radio modern (seperti NVIDIA Sionna, PyTorch, atau GNU Radio), sinyal yang diproses pada lapisan fisik (PHY) selalu berupa array bilangan kompleks `[real, imag]` berdimensi baseband, padahal gelombang tegangan listrik yang memancar nyata di udara dari antena pemancar selalu berupa bilangan riil murni?
 
-### Soal 2:
-> Sebuah kanal 4G LTE memiliki bandwidth $B = 20\text{ MHz}$ dengan rasio daya $\text{SNR} = 15$ (skala linier, bukan dB).  
-> 1. Berapakah kapasitas maksimum Shannon teoritis kanal tersebut dalam satuan **Megabit per detik (Mbps)**? *(Petunjuk: $\log_2(1 + 15) = \log_2(16)$)*.  
-> 2. Jika regulator mengizinkan operator menggandakan lebar bandwidth menjadi $B = 40\text{ MHz}$ tanpa mengubah daya pancar, berapakah kapasitas barunya? Manakah yang lebih hemat energi: menaikkan bandwidth atau menaikkan daya pemancar?
+#### ✅ Jawaban Terverifikasi (Evaluasi Mentor Dr. Aris 📡):
+* **Beban Komputasi & Sampling Nyquist:**  
+  Sinyal passband RF di udara merambat pada frekuensi pembawa $f_c$ (misal $3.5\text{ GHz}$ atau $140\text{ GHz}$). Berdasarkan teorema sampling Nyquist-Shannon, memproses sinyal passband secara digital membutuhkan laju sampling minimal $f_s \ge 2 f_c$ (puluhan hingga ratusan Gigasamples per detik!). Tidak ada GPU atau memori RAM modern yang sanggup menampung komputasi floating-point sebesar itu secara real-time.
+* **Equivalent Complex Baseband:**  
+  Dengan memisahkan sinyal menjadi amplop informasi kompleks $I(t) + jQ(t)$ via Formula Euler dan membuang frekuensi pembawa $f_c$, sampling rate software hanya perlu sebanding dengan lebar pita informasi (**Bandwidth $B$**), bukan frekuensi pembawa.
+  * Pada bandwidth $20\text{ MHz}$, laju sampling turun drastis menjadi $20 - 40\text{ MSPS}$ (ribuan kali lebih ringan dan muat di tensor PyTorch).
 
 ---
-*Catatan kuliah ini disusun bersama Mentor Dr. Aris (📡), Amelia (💻), & Paige (📚) untuk repositori [jouzu1/road-to-6g-fellow](https://github.com/jouzu1/road-to-6g-fellow).*
+
+### Soal 2:
+Sebuah kanal 4G LTE memiliki bandwidth $B = 20\text{ MHz}$ dengan rasio daya $\text{SNR} = 15$ (skala linier, bukan dB).
+
+1. Berapakah kapasitas maksimum Shannon teoritis kanal tersebut dalam satuan **Megabit per detik (Mbps)**?
+```math
+\text{Perhitungan: } \log_2(1 + 15) = \log_2(16) = 4
+```
+2. Jika regulator mengizinkan operator menggandakan lebar bandwidth menjadi $B = 40\text{ MHz}$ tanpa mengubah daya pancar, berapakah kapasitas barunya? Manakah yang lebih hemat energi: menaikkan bandwidth atau menaikkan daya pemancar?
+
+#### ✅ Jawaban Terverifikasi (Evaluasi Mentor Dr. Aris 📡):
+1. **Kapasitas Awal ($B = 20\text{ MHz}$):**
+```math
+C_1 = 20\text{ MHz} \times \log_2(1 + 15) = 20 \times 4 = \mathbf{80\text{ Mbps}}
+```
+2. **Kapasitas Baru ($B = 40\text{ MHz}$):**
+```math
+C_2 = 40\text{ MHz} \times \log_2(1 + 15) = 40 \times 4 = \mathbf{160\text{ Mbps}}
+```
+3. **Efisiensi Energi (Bandwidth vs Daya):**
+   * Menaikkan bandwidth jauh lebih hemat energi karena variabel $B$ berada **di luar logaritma (linier)**: menduplikasi $B$ langsung menduplikasi kapasitas ($2\times$).
+   * Sebaliknya, daya sinyal $S$ berada **di dalam kurung logaritma $\log_2$**. Untuk menaikkan kapasitas dari $80\text{ Mbps}$ ke $160\text{ Mbps}$ hanya dengan menaikkan daya (tanpa menambah bandwidth), operator harus menaikkan SNR menjadi:
+```math
+\log_2(1 + \text{SNR}) = 8 \implies 1 + \text{SNR} = 2^8 = 256 \implies \text{SNR} = 255
+```
+   Daya pemancar harus dinaikkan sebesar **$255 / 15 = 17\text{ kali lipat}$ (+12.3 dB)!** Hal ini akan membakar Power Amplifier (PA), melanggar batas regulasi keselamatan radiasi manusia (SAR), dan menguras baterai ponsel seketika.
+
+---
+
+### 💡 Diskusi Arsitektur Lanjutan: Trade-off Memperlebar Bandwidth
+
+> *"Tapi kalau memperlebar bandwidth, harusnya ada trade-off fisika dan komersialnya kan, Prof?"*
+
+Pertanyaan kritis yang sangat tajam! Di industri telekomunikasi riil, tidak ada makan siang gratis (*no free lunch*). Memperlebar bandwidth memicu 4 tantangan arsitektural utama:
+
+1. **Noise Total Ikut Membengkak ($N = N_0 \cdot B$):**  
+   Berdasarkan desah termal Johnson-Nyquist, daya noise total sebanding dengan bandwidth:
+```math
+N = k_B \cdot T \cdot B
+```
+   Jika $B$ digandakan dari $20\text{ MHz}$ ke $40\text{ MHz}$, daya derau total yang masuk ke receiver otomatis naik $2\times$ (+3 dB). Jika daya pancar pemancar tidak ikut disesuaikan di area tepi sel (*cell edge*), SNR efektif riil dapat terdegradasi.
+
+2. **Frequency-Selective Fading & Dispersi Waktu (Delay Spread):**  
+   Semakin lebar bandwidth ($B$), durasi waktu per simbol menjadi semakin sempit ($T_s \approx 1/B$).  
+   Gelombang radio yang terpantul dari gedung-gedung dan pegunungan tiba dengan jeda waktu beberapa mikrodetik (*multipath delay spread*), memicu tumpang tindih sinyal yang disebut **Inter-Symbol Interference (ISI)**. Kanal radio tidak lagi datar (*flat*), melainkan bergelombang (*frequency-selective*).
+   * **Solusi Industri:** Inilah alasan utama mengapa 4G LTE, 5G NR, dan 6G wajib menggunakan teknik **OFDM (Orthogonal Frequency Division Multiplexing)**—yaitu memecah bandwidth lebar menjadi ribuan sub-saluran sempit yang masing-masing mengalami *flat fading*.
+
+3. **Biaya Regulasi Spektrum Selangit (BHP Frekuensi Komdigi / IPFR):**  
+   Spektrum elektromagnetik adalah sumber daya alam terbatas milik negara. Di Indonesia, lelang spektrum pita $2.1\text{ GHz}$ atau $2.6\text{ GHz}$ oleh Kementerian Komunikasi dan Digital (Komdigi) mematok Biaya Hak Penggunaan (BHP) Frekuensi mencapai ratusan miliar hingga triliunan rupiah per blok $10\text{ MHz}$ setiap tahunnya.
+
+4. **Konsumsi Daya Sirkuit ADC/DAC (*Analog-to-Digital Converter*):**  
+   Semakin lebar bandwidth $B$, sirkuit ADC pada smartphone harus mencuplik (*sample*) dengan kecepatan jauh lebih tinggi. Disipasi daya listrik sirkuit ADC berskala secara eksponensial terhadap laju sampling dan resolusi bit, menuntut arsitektur *mixed-signal* yang sangat canggih di era 6G.
+
+---
+*Catatan kuliah ini disusun bersama Mentor Dr. Aris (📡), Amelia (💻), & Paige (📝) untuk repositori [jouzu1/road-to-6g-fellow](https://github.com/jouzu1/road-to-6g-fellow).*

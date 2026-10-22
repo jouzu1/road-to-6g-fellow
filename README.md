@@ -317,7 +317,8 @@ Daftar catatan kuliah, bedah konsep, dan verifikasi kuis yang telah dituntaskan 
 | Level | Modul / Topik | Catatan Kuliah | Status |
 | :---: | :--- | :--- | :---: |
 | **Level 0** | **Kuliah 1:** Misteri Waktu vs. Frekuensi & Rahasia Ukuran Antena HP | [Buka Catatan Kuliah 1](lectures/level-0/lecture-01-time-vs-frequency-and-antenna-physics.md) | ✅ Passed |
-| **Level 0** | **Kuliah 2:** Bilangan Kompleks ($I + jQ$), Senter Ortogonal, & Kapasitas Shannon | [Buka Catatan Kuliah 2](lectures/level-0/lecture-02-complex-signals-and-shannon-capacity.md) | ⏳ In Progress |
+| **Level 0** | **Kuliah 2:** Bilangan Kompleks ($I + jQ$), Senter Ortogonal, & Kapasitas Shannon | [Buka Catatan Kuliah 2](lectures/level-0/lecture-02-complex-signals-and-shannon-capacity.md) | ✅ Passed |
+| **Level 1** | **Kuliah 3:** Papan Catur Modulasi Digital (BPSK, QPSK, 16-QAM), Gray Coding & Kanal AWGN | *(Up Next)* | ⏳ Pending |
 
 ---
 
