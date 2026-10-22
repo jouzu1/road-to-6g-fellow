@@ -319,7 +319,7 @@ Daftar catatan kuliah, bedah konsep, dan verifikasi kuis yang telah dituntaskan 
 | **Level 0** | **Kuliah 1:** Misteri Waktu vs. Frekuensi & Rahasia Ukuran Antena HP | [Buka Catatan Kuliah 1](lectures/level-0/lecture-01-time-vs-frequency-and-antenna-physics.md) | ✅ Passed |
 | **Level 0** | **Kuliah 2:** Bilangan Kompleks ($I + jQ$), Senter Ortogonal, & Kapasitas Shannon | [Buka Catatan Kuliah 2](lectures/level-0/lecture-02-complex-signals-and-shannon-capacity.md) | ✅ Passed |
 | **Level 0** | **Ujian Akhir:** Comprehensive Review Exam & System Audit (Kasus 5G/6G) | [Buka Berkas Ujian](lectures/level-0/level-0-comprehensive-review-exam.md) | 🏆 Passed (98/100) |
-| **Level 1** | **Kuliah 3:** Papan Catur Modulasi Digital (BPSK, QPSK, 16-QAM), Gray Coding & Kanal AWGN | *(Up Next)* | ⏳ Pending |
+| **Level 1** | **Kuliah 3:** Papan Catur Modulasi Digital (BPSK, QPSK, 16-QAM), Gray Coding & Kanal AWGN | [Buka Catatan Kuliah 3](lectures/level-1/lecture-03-digital-modulation-gray-coding-awgn.md) | ⏳ In Progress |
 
 ---
 
